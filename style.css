@@ -1,0 +1,536 @@
+*{
+  font-family: 'Helvetica', sans-serif;
+  padding: 0px;
+  margin: 0;
+}
+
+/*Landing Page*/
+  .index{
+    padding: 8px;
+  }
+
+  .registbtn{
+    color: white !important;
+    margin-right: 6px;
+  }
+
+  .signbtn{
+    padding-top: 9px !important;
+    padding-bottom: 8px !important;
+    background-color: white !important;
+    margin-right: 6px;
+    color: #35a7ff !important;
+    border: 1px solid #35a7ff !important;
+  }
+
+  .hero{
+    padding-left: 155px;
+    padding-right: 35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .hero-content{
+    padding-top: 100px;
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  .quotes{
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+
+  .hero-illus img{
+    padding: 15px;
+    width: 100%;
+  }
+
+  .column{
+    float: left;
+    width: 50%;
+  }
+
+  .column3{
+    padding: 20px;
+    height: 90px;
+    background-color: white;
+    float: left;
+    width: 30%;
+    border-radius: 8px;
+    border: 1px solid #35a7ff;
+  }
+
+  .column4 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    float: left;
+    width: 24%;
+    border-radius: 8px;
+  }
+
+  .team-members:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .learn{
+    margin-right: 8px;
+  }
+
+  .share{
+    margin-right: 8px;
+  }
+
+  .hero:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .feat-content:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .cb-content{
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .cb-content p{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 16px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .feat-content{
+    margin-top: 16px;
+    color: black !important;
+  }
+
+  .about-cb{
+    background-color: #ffffff;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .features{
+    background-color: #30c99a;
+    padding-left: 35px;
+    padding-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+  }
+
+  .features p{
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .cb-team{
+    background-color:white;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .flags{
+    margin-top: 8px;
+    margin-bottom: 12px;
+      width: 12%;
+      border-radius: 4px;
+  }
+
+  .teampic{
+    width: 35%;
+    margin-bottom: 12px;
+  }
+
+  .melisa{
+    width: 40% !important;
+  }
+
+  .tomiwa{
+    width: 34% !important;
+  }
+
+  .amelia{
+    width: 35.3% !important;
+  }
+
+  .member1, .member2,.member3{
+    margin-right: 4px;
+  }
+  .team-content p{
+    margin-top: 12px;
+    padding-left: 125px;
+    padding-right: 125px;
+  }
+  .team-members{
+    padding-left: 20px;
+    margin-top: 12px;
+  }
+
+
+/*generals*/
+
+.error{
+  margin: 0 auto;
+  margin-bottom: 20px !important;
+  padding: 15px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  border-radius: 5px;
+  text-align: left;
+  font-style: italic;
+  line-height: 1.5em;
+}
+
+body{
+  background-color: #f0f2f5;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  padding: 25px;
+  background-color: black;
+  color: white;
+}
+
+.divider{
+  color: #a9a9a9;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.button{
+  padding-bottom:10px;
+  padding-top: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #35a7ff;
+  color: white;
+  font-weight: 600;
+}
+
+.link{
+  margin-top: 35px;
+  color: #2e294e;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+.choosecategory{
+  color: #cacfd6;
+  background-color: white;
+  border: 1.5px solid #cacfd6;
+  position: relative;
+  padding-bottom:8px;
+  padding-top: 9px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 5px;
+}
+
+.choosecategory option{
+  color: #000000;
+}
+
+.logo{
+  text-decoration: none;
+  color: #2e294e;
+  font-weight: 700;
+  padding: 14px 16px;
+  float: left;
+}
+
+.nav-bar{
+  overflow: hidden;
+  background-color:#ffffff;
+}
+
+.nav-bar a{
+  display: block;
+  color: #2e294e;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  float: right;
+}
+
+.nav-bar a:hover {
+  color: #f1e8b8;
+}
+
+.nav-bar a.active {
+  text-decoration: none;
+  color: #2e294e;
+  font-weight: 700;
+  border-bottom: 4px solid #f1e8b8;
+}
+
+.nav-bar input[type=text] {
+  margin-top: 5px;
+  margin-right: 16px;
+  font-size: 17px;
+  padding: 8px;
+  width: 45%;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #cacfd6;
+}
+
+.nav-bar input[type=text]:focus{
+  border-color: #56a3a6;
+  color: #000000;
+}
+
+
+.content{
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.new-post{
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  margin-top: 15px;
+  position: relative;
+}
+
+.post-quest-head{
+    margin-bottom: 10px !important;
+    position: absolute;
+}
+
+.describe{
+  margin-top: 28px;
+  margin-bottom: 12px !important;
+  padding: 14px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #cacfd6;
+  width: 100%;
+}
+
+.postPosting{
+  float: right;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.attach{
+  color: #cacfd6;
+  background-color: white;
+  border: 1.5px solid #cacfd6;
+  position: relative;
+  padding-bottom:7px;
+  padding-top: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.helpPostExample{
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.others-post{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ff6666;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.offer-help{
+  margin-top: 18px !important;
+  margin-bottom: 10px;
+}
+
+.offer-help:disabled{
+  background-color: #cacfd6;
+  color: #808080;
+}
+
+.offer-help-email{
+  font-size: 14px;
+  background-color: white;
+  border: 1px solid #35a7ff;
+  color: #35a7ff;
+  text-decoration: none;
+}
+
+.postDescribe{
+  margin-top: 14px !important;
+}
+
+.date{
+  margin-top: 8px;
+  font-size: 12px;
+  font-style: italic;
+  color: #808080;
+}
+
+.problemAttachment{
+  margin-left: 16px;
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #cacfd6;
+}
+
+.profpic{
+  margin-bottom: 10px;
+}
+
+/*PROFILE PAGE*/
+.profilepageheader{
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+
+.left-profile {
+  width: 20%;
+  float: left;
+}
+.right-profile {
+  width: 75%;
+  margin-left: 24px;
+  float: left;
+}
+
+.usersprofpic{
+  max-width: 120px;
+  margin-bottom: 10px;
+}
+
+.editprofile{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.maininfo{
+  padding: 16px;
+  padding-bottom: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.moreinfo{
+  font-size: 14px;
+  padding-left: 16px;
+  margin-top: 12px;
+  color: #303030;
+  margin-bottom: 16px;
+}
+
+.emailinfo, .ageinfo{
+  margin-top: 6px;
+}
+
+.myspecialties, .myinterests{
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.myspecialties{
+  margin-bottom: 10px;
+}
+
+.myinterests{
+  margin-bottom: 10px;
+}
+
+.addmore a{
+  text-decoration: none;
+}
+
+.addmore{
+  margin-top: 12px;
+  padding-left: 22px;
+  list-style: none;
+}
+
+.divider{
+  color: #a9a9a9;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.specialtyhead{
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.interest{
+  margin-top: 24px;
+}
+
+/*FORMS*/
+
+.header-form{
+  text-align: center;
+  padding-bottom: 14px;
+}
+
+.submitbtn{
+  text-align: center !important;
+  padding-bottom: 10px;
+}
+
+.login-msg{
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 44px;
+}
+
+form{
+  margin-top: 30px !important;
+  align-content: center;
+  width: 30%;
+  margin: 0 auto;
+  padding: 20px;
+  padding-bottom: 20px !important;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+input[type=text], input[type=email], input[type=password], input[type=number]{
+  margin-top: 5px !important;
+  font-size: 17px;
+  padding: 8px;
+  width: 97%;
+  margin: 0 auto;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #cacfd6;
+}
